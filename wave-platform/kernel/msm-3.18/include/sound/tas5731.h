@@ -1,0 +1,7 @@
+#ifndef _SND_SOC_CODEC_TAS5731_H_
+#define _SND_SOC_CODEC_TAS5731_H_
+
+#define TAS5731_CLK_IDX_MCLK	0
+#define TAS5731_CLK_IDX_SCLK	1
+
+#endif /* _SND_SOC_CODEC_TAS5731_H_ */

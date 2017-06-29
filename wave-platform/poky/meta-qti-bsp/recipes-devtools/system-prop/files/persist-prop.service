@@ -1,0 +1,11 @@
+[Unit]
+Description= Persist Properties Service
+SourcePath=/etc/init.d/persist-prop
+After=data.mount
+
+[Service]
+RemainAfterExit=yes
+ExecStart=/etc/init.d/persist-prop start
+
+[Install]
+WantedBy=multi-user.target

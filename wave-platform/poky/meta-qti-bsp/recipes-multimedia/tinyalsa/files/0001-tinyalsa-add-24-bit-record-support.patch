@@ -1,0 +1,48 @@
+From ab071d0307866e60d43daeba3c1d9093791fe73e Mon Sep 17 00:00:00 2001
+From: Arun Kumar Dasari <Arun@codeaurora.org>
+Date: Thu, 28 Jul 2016 19:42:34 +0530
+Subject: [PATCH] tinyalsa: add 24 bit record support
+
+add PCM_FORMAT_S24_3LE support for recording 24bit
+---
+ include/tinyalsa/asoundlib.h | 1 +
+ pcm.c                        | 4 ++++
+ 2 files changed, 5 insertions(+)
+
+diff --git a/git/include/tinyalsa/asoundlib.h b/git/include/tinyalsa/asoundlib.h
+index 8fb7c95..9560a4a 100644
+--- a/git/include/tinyalsa/asoundlib.h
++++ b/git/include/tinyalsa/asoundlib.h
+@@ -70,6 +70,7 @@ enum pcm_format {
+     PCM_FORMAT_S32_LE,
+     PCM_FORMAT_S8,
+     PCM_FORMAT_S24_LE,
++    PCM_FORMAT_S24_3LE, /* 24 bits in 3-bytes */
+ 
+     PCM_FORMAT_MAX,
+ };
+diff --git a/git/pcm.c b/git/pcm.c
+index 2c1308d..8700fa1 100644
+--- a/git/pcm.c
++++ b/git/pcm.c
+@@ -212,6 +212,8 @@ static unsigned int pcm_format_to_alsa(enum pcm_format format)
+         return SNDRV_PCM_FORMAT_S32_LE;
+     case PCM_FORMAT_S8:
+         return SNDRV_PCM_FORMAT_S8;
++    case PCM_FORMAT_S24_3LE:
++        return SNDRV_PCM_FORMAT_S24_3LE;
+     case PCM_FORMAT_S24_LE:
+         return SNDRV_PCM_FORMAT_S24_LE;
+     default:
+@@ -226,6 +228,8 @@ unsigned int pcm_format_to_bits(enum pcm_format format)
+     case PCM_FORMAT_S32_LE:
+     case PCM_FORMAT_S24_LE:
+         return 32;
++    case PCM_FORMAT_S24_3LE:
++        return 24;
+     default:
+     case PCM_FORMAT_S16_LE:
+         return 16;
+-- 
+1.9.1
+

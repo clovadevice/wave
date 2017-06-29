@@ -1,0 +1,10 @@
+root_sbindir       := "/sbin"
+root_sbin_PROGRAMS := leprop-service
+
+leprop_service_SOURCES  = property_service.c
+leprop_service_SOURCES += ll.c
+
+leprop_service_CPPFLAGS = -I$(top_srcdir)/include
+leprop_service_CPPFLAGS += -I$(top_srcdir)/libcutils
+
+leprop_service_LDFLAGS  = -llog -lcutils

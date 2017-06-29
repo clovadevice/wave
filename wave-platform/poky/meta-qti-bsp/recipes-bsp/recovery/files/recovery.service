@@ -1,0 +1,11 @@
+[Unit]
+Description= Recovery Service
+After=find-recovery-partitions.service adbd.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/recovery
+
+[Install]
+WantedBy=multi-user.target

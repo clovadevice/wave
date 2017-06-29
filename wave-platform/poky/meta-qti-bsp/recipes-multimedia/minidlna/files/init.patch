@@ -1,0 +1,10 @@
+--- a/linux/minidlna.init.d.script.tmpl	2016-10-20 19:19:07.366766200 +0530
++++ b/linux/minidlna.init.d.script.tmpl	2016-10-20 19:55:12.339200304 +0530
+@@ -20,7 +20,7 @@
+
+ MINIDLNA=/usr/sbin/minidlnad
+ PIDFILE=/var/run/minidlna/minidlna.pid
+-CONF=/etc/minidlna.conf
++CONF=/data/minidlna.conf
+ ARGS="-f $CONF -R"
+ test -f $MINIDLNA || exit 0

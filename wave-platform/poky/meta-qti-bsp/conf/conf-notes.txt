@@ -1,0 +1,8 @@
+Supported targets are:
+      machine-image
+      machine-concam-image
+      machine-drone-image
+      machine-psm-image
+      machine-qsap-image
+      machine-recovery-image
+

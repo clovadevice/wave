@@ -1,0 +1,102 @@
+diff -aruN pugixml-1.4/Makefile pugixml-1.4_new/Makefile
+--- pugixml-1.4/Makefile	2014-08-25 12:11:16.000000000 +0530
++++ pugixml-1.4_new/Makefile	1970-01-01 05:30:00.000000000 +0530
+@@ -1,40 +0,0 @@
+-config=debug
+-defines=standard
+-
+-BUILD=build/make-$(CXX)-$(config)-$(defines)
+-
+-SOURCES=src/pugixml.cpp $(wildcard tests/*.cpp)
+-EXECUTABLE=$(BUILD)/test
+-
+-CXXFLAGS=-c -g -Wall -Wextra -Werror -pedantic
+-LDFLAGS=
+-
+-ifeq ($(config),release)
+-	CXXFLAGS+=-O3 -DNDEBUG
+-endif
+-
+-ifneq ($(defines),standard)
+-	COMMA=,
+-	CXXFLAGS+=-D $(subst $(COMMA), -D ,$(defines))
+-endif
+-
+-OBJECTS=$(SOURCES:%=$(BUILD)/%.o)
+-
+-all: $(EXECUTABLE)
+-
+-test: $(EXECUTABLE)
+-	./$(EXECUTABLE)
+-
+-clean:
+-	rm -rf $(BUILD)
+-
+-$(EXECUTABLE): $(OBJECTS)
+-	$(CXX) $(OBJECTS) $(LDFLAGS) -o $@
+-
+-$(BUILD)/%.o: %
+-	@mkdir -p $(dir $@)
+-	$(CXX) $< $(CXXFLAGS) -MMD -MP -o $@
+-
+--include $(OBJECTS:.o=.d)
+-
+-.PHONY: all test clean	
+\ No newline at end of file
+diff -aruN pugixml-1.4/Makefile.am pugixml-1.4_new/Makefile.am
+--- pugixml-1.4/Makefile.am	1970-01-01 05:30:00.000000000 +0530
++++ pugixml-1.4_new/Makefile.am	2014-08-27 19:54:52.634760315 +0530
+@@ -0,0 +1,29 @@
++AM_CFLAGS = -Wundef \
++        -Wstrict-prototypes \
++        -Wno-trigraphs \
++        -g -O0 \
++        -fno-inline \
++        -fno-short-enums \
++        -fpic
++
++
++AM_CPPFLAGS = -D__packed__= \
++        $(CFLAGS)
++
++
++library_includedir = $(pkgincludedir)
++library_include_HEADERS = src/pugiconfig.hpp \
++                          src/pugixml.hpp
++
++libpugixml_h_sources = src/pugiconfig.hpp src/pugixml.hpp
++libpugixml_c_sources = src/pugixml.cpp
++
++libpugixml_la_CFLAGS = $(AM_CFLAGS) -fPIC
++libpugixml_la_LDFLAGS = -shared -version-info 1:0:0
++libpugixml_la_CPPFLAGS = $(AM_CFLAGS) $(AM_CPPFLAGS)
++
++#libpugixml_la_CC = @CC@
++libpugixml_la_SOURCES = $(libpugixml_c_sources) $(libpugixml_h_sources)
++
++#Create and Install libraries
++lib_LTLIBRARIES = libpugixml.la
+diff -aruN pugixml-1.4/configure.ac pugixml-1.4_new/configure.ac
+--- pugixml-1.4/configure.ac	1970-01-01 05:30:00.000000000 +0530
++++ pugixml-1.4_new/configure.ac	2014-08-27 19:32:24.009129000 +0530
+@@ -0,0 +1,20 @@
++AC_PREREQ(2.61)
++AC_INIT([pugixml],
++        1.0.0)
++AM_INIT_AUTOMAKE([foreign])
++AM_MAINTAINER_MODE
++AC_CONFIG_SRCDIR([src/pugixml.cpp])
++AC_CONFIG_HEADER([config.h])
++AC_CONFIG_MACRO_DIR([m4])
++AC_PROG_CC
++AC_PROG_CPP
++AC_PROG_CXX
++AC_PROG_LIBTOOL
++PKG_PROG_PKG_CONFIG
++
++AC_SUBST([CPPFLAGS])
++
++AC_CONFIG_FILES([ \
++        Makefile 
++        ])
++AC_OUTPUT

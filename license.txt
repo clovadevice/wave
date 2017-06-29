@@ -1,0 +1,1126 @@
+.
+├── acdb-fts
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── acdbloader
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── acdbmapper
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── acdb-mcs
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── acdbrtac
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── acl-native
+│   ├── COPYING
+│   ├── COPYING.LGPL
+│   ├── generic_GPLv2
+│   └── generic_LGPLv2.1
+├── adiertac
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── adpcm-dec
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── adreno200
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── aemp
+│   ├── generic_Proprietary
+│   └── LICENSE
+├── airplayd
+│   ├── generic_Proprietary
+│   └── Makefile
+├── alsa-intf
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── alsa-lib
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   └── socket.c
+├── alsa-plugins
+│   ├── attributes.m4
+│   ├── COPYING
+│   ├── COPYING.GPL
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   └── rate_samplerate.c
+├── alsa-state
+│   ├── COPYING.MIT
+│   └── generic_MIT
+├── alsaucm-conf
+│   ├── BSD
+│   └── generic_BSD
+├── alsa-utils
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   └── utils.c
+├── applypatch-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── atfwd-daemon
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── ath6kl-utils
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── attr
+│   ├── attr.c
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   └── libattr.c
+├── attr-native
+│   ├── attr.c
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   └── libattr.c
+├── audcal
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audcaltests
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audioalsa
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audio-codecs-noship
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audio-dev-arbi
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audio-ftm
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audiohal
+│   ├── BSD
+│   └── generic_BSD
+├── audiohal-test
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audio-listen-noship
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audio-parsers
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── audio-resampler
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── autoconf-native
+│   ├── COPYING
+│   ├── COPYINGv3
+│   ├── generic_GPLv2
+│   └── generic_GPLv3
+├── automake-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── avahi
+│   ├── address.h
+│   ├── client.h
+│   ├── dns.h
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   ├── LICENSE
+│   └── main.c
+├── base-files
+│   ├── generic_GPLv2
+│   └── GPL-2
+├── base-passwd
+│   ├── COPYING
+│   └── generic_GPLv2
+├── bash
+│   ├── COPYING
+│   └── generic_GPLv3
+├── bash-completion
+│   ├── COPYING
+│   └── generic_GPLv2
+├── bc-native
+│   ├── bcdefs.h
+│   ├── COPYING
+│   ├── COPYING.LIB
+│   ├── dc.h
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   └── number.c
+├── beecrypt-native
+│   ├── beecrypt.h
+│   ├── COPYING
+│   ├── COPYING.LIB
+│   ├── generic_GPLv2
+│   └── generic_LGPLv2.1
+├── binutils-cross-arm
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   └── generic_GPLv3
+├── binutils-native
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   └── generic_GPLv3
+├── bison-native
+│   ├── COPYING
+│   └── generic_GPLv3
+├── bluez5
+│   ├── COPYING
+│   ├── COPYING.LIB
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   └── main.c
+├── bt-app
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── btobex
+│   ├── BSD
+│   └── generic_BSD
+├── bt-property
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── bt-services
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── busybox
+│   ├── generic_bzip2
+│   ├── generic_GPLv2
+│   └── LICENSE
+├── byacc-native
+│   ├── copyright
+│   └── generic_PD
+├── bzip2
+│   ├── generic_bzip2
+│   └── LICENSE
+├── bzip2-native
+│   ├── generic_bzip2
+│   └── LICENSE
+├── ca-certificates
+│   ├── copyright
+│   ├── generic_GPL-2.0
+│   └── generic_MPL-2.0
+├── ca-certificates-native
+│   ├── copyright
+│   ├── generic_GPL-2.0
+│   └── generic_MPL-2.0
+├── chargemode
+│   ├── generic_Proprietary
+│   └── Makefile
+├── common
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── configdb
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── cryptodev-linux
+│   ├── COPYING
+│   └── generic_GPLv2
+├── cryptodev-linux-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── curl
+│   ├── COPYING
+│   └── generic_MIT
+├── data
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── data-oss
+│   ├── BSD
+│   └── generic_BSD
+├── db
+│   ├── generic_AGPL-3.0
+│   └── LICENSE
+├── db-native
+│   ├── generic_AGPL-3.0
+│   └── LICENSE
+├── dbus
+│   ├── COPYING
+│   ├── dbus.h
+│   ├── generic_AFL-2
+│   └── generic_GPLv2
+├── dbus-glib
+│   ├── COPYING
+│   ├── dbus-glib.h
+│   ├── generic_AFL-2
+│   └── generic_GPLv2
+├── dbus-glib-native
+│   ├── COPYING
+│   ├── dbus-glib.h
+│   ├── generic_AFL-2
+│   └── generic_GPLv2
+├── dbus-native
+│   ├── COPYING
+│   ├── dbus.h
+│   ├── generic_AFL-2
+│   └── generic_GPLv2
+├── depmodwrapper-cross
+│   ├── COPYING.MIT
+│   └── generic_MIT
+├── dhcpcd
+│   ├── BSD
+│   └── generic_BSD
+├── diag
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── diag-reboot-app
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── display-hal-linux
+│   ├── BSD
+│   └── generic_BSD
+├── dnsmasq
+│   └── COPYING
+├── drc
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── dsutils
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── dtbtool-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── e2fsprogs-native
+│   ├── COPYING
+│   ├── e2p.h
+│   ├── et_name.c
+│   ├── ext2fs.h
+│   ├── generic_BSD
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2
+│   ├── generic_MIT
+│   ├── ss.h
+│   └── uuid.h.in
+├── ebtables
+│   ├── COPYING
+│   └── generic_GPLv2
+├── elfutils-native
+│   ├── COPYING
+│   ├── generic_Elfutils-Exception
+│   └── generic_GPLv3
+├── ethtool
+│   ├── COPYING
+│   └── generic_GPLv2
+├── expat
+│   ├── COPYING
+│   └── generic_MIT
+├── expat-native
+│   ├── COPYING
+│   └── generic_MIT
+├── ext4-utils
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── ext4-utils-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── ffmpeg
+│   ├── generic_LGPLv2.1
+│   └── LGPL-2.1
+├── file-native
+│   ├── COPYING
+│   └── generic_BSD
+├── flac
+│   ├── all.h
+│   ├── COPYING.FDL
+│   ├── COPYING.GPL
+│   ├── COPYING.LGPL
+│   ├── COPYING.Xiph
+│   ├── generic_BSD
+│   ├── generic_GFDL-1.2
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   ├── main.c
+│   └── Makefile.am
+├── flex-native
+│   ├── COPYING
+│   └── generic_BSD
+├── fluoride
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── fsconfig-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── ftm
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── gawk
+│   ├── COPYING
+│   └── generic_GPLv3
+├── gcc
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   ├── COPYING.RUNTIME
+│   ├── generic_GPL-3.0-with-GCC-exception
+│   └── generic_GPLv3
+├── gcc-cross-arm
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   ├── COPYING.RUNTIME
+│   ├── generic_GPL-3.0-with-GCC-exception
+│   └── generic_GPLv3
+├── gcc-cross-initial-arm
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   ├── COPYING.RUNTIME
+│   ├── generic_GPL-3.0-with-GCC-exception
+│   └── generic_GPLv3
+├── gcc-runtime
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   ├── COPYING.RUNTIME
+│   ├── generic_GPL-3.0-with-GCC-exception
+│   └── generic_GPLv3
+├── gconf
+│   ├── COPYING
+│   └── generic_LGPLv2
+├── gdb
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   ├── generic_GPLv2
+│   ├── generic_GPLv3
+│   ├── generic_LGPLv2
+│   └── generic_LGPLv3
+├── gdbm
+│   ├── COPYING
+│   └── generic_GPLv3
+├── gen-gatt
+│   ├── BSD
+│   └── generic_BSD
+├── gensecimage-native
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── gettext
+│   ├── COPYING
+│   ├── generic_GPLv3
+│   └── generic_LGPL-2.1
+├── gettext-minimal-native
+│   ├── COPYING
+│   └── generic_FSF-Unlimited
+├── gettext-native
+│   ├── COPYING
+│   ├── generic_GPLv3
+│   └── generic_LGPL-2.1
+├── glib-2.0
+│   ├── COPYING
+│   ├── generic_BSD
+│   ├── generic_LGPLv2
+│   ├── generic_PD
+│   ├── glib.h
+│   ├── gmodule.h
+│   └── pcre.h
+├── glib-2.0-native
+│   ├── COPYING
+│   ├── generic_BSD
+│   ├── generic_LGPLv2
+│   ├── generic_PD
+│   ├── glib.h
+│   ├── gmodule.h
+│   └── pcre.h
+├── glibc
+│   ├── COPYING
+│   ├── COPYING.LIB
+│   ├── COPYRIGHT
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   └── LICENSES
+├── glibc-initial
+│   ├── COPYING
+│   ├── COPYING.LIB
+│   ├── COPYRIGHT
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   └── LICENSES
+├── gmp
+│   ├── COPYING
+│   ├── COPYING.LESSERv3
+│   ├── COPYINGv2
+│   ├── generic_GPLv2
+│   └── generic_LGPLv3
+├── gmp-native
+│   ├── COPYING
+│   ├── COPYING.LESSERv3
+│   ├── COPYINGv2
+│   ├── generic_GPLv2
+│   └── generic_LGPLv3
+├── gnome-common-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── gnu-config-native
+│   ├── config.guess
+│   └── generic_GPL-3.0-with-autoconf-exception
+├── gnutls
+│   ├── COPYING
+│   ├── COPYING.LESSER
+│   ├── generic_GPLv3
+│   └── generic_LGPLv2.1
+├── gperf-native
+│   ├── COPYING
+│   ├── generic_GPLv3
+│   └── main.cc
+├── gtk-doc-stub
+│   ├── COPYING
+│   └── generic_GPLv2
+├── gtk-doc-stub-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── hci-qcomm-init
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── hostap-daemon-qcacld
+│   ├── BSD
+│   └── generic_BSD
+├── i2c-tools
+│   ├── COPYING
+│   └── generic_GPLv2
+├── init-audio
+│   ├── BSD
+│   └── generic_BSD
+├── init-ifupdown
+│   ├── copyright
+│   └── generic_GPLv2
+├── init-mss
+│   ├── BSD
+│   └── generic_BSD
+├── initscripts
+│   ├── COPYING
+│   └── generic_GPLv2
+├── intltool-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── iproute2
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   └── ip.c
+├── iptables
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   └── iptables.c
+├── iw
+│   ├── COPYING
+│   └── generic_BSD
+├── json-c
+│   ├── COPYING
+│   └── generic_MIT
+├── kbd
+│   ├── COPYING
+│   └── generic_GPLv2
+├── kconfig-frontends-native
+│   ├── COPYING
+│   └── generic_GPL-2.0
+├── kern-tools-native
+│   ├── generic_GPLv2
+│   └── kgit
+├── keydet
+│   ├── generic_Proprietary
+│   └── Makefile
+├── keymaps
+│   ├── COPYING
+│   └── generic_GPLv2
+├── kmod
+│   ├── COPYING
+│   ├── generic_GPL-2.0
+│   └── generic_LGPL-2.1
+├── kmod-native
+│   ├── COPYING
+│   ├── generic_GPL-2.0
+│   └── generic_LGPL-2.1
+├── libarchive-native
+│   ├── COPYING
+│   └── generic_BSD
+├── libatomic-ops
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   ├── generic_MIT
+│   └── LICENSING.txt
+├── libbt-vendor
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libcap
+│   ├── generic_BSD
+│   ├── generic_GPLv2
+│   └── License
+├── libcheck
+│   ├── COPYING.LESSER
+│   └── generic_LGPLv2.1
+├── libcutils
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libcutils-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libdaemon
+│   ├── daemon.h
+│   ├── generic_LGPLv2.1
+│   └── LICENSE
+├── libevent
+│   ├── generic_BSD
+│   └── LICENSE
+├── libffi
+│   ├── generic_MIT
+│   └── LICENSE
+├── libffi-native
+│   ├── generic_MIT
+│   └── LICENSE
+├── libgcc
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   ├── COPYING.RUNTIME
+│   ├── generic_GPL-3.0-with-GCC-exception
+│   └── generic_GPLv3
+├── libgcc-initial
+│   ├── COPYING
+│   ├── COPYING3
+│   ├── COPYING3.LIB
+│   ├── COPYING.LIB
+│   ├── COPYING.RUNTIME
+│   └── generic_GPL-3.0-with-GCC-exception
+├── libhardware
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libical
+│   ├── COPYING
+│   ├── generic_LGPLv2.1
+│   ├── generic_MPL-1
+│   └── LICENSE
+├── liblog
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── liblog-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libmincrypt
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libmincrypt-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libmpc
+│   ├── COPYING.LESSER
+│   └── generic_LGPLv3
+├── libmpc-native
+│   ├── COPYING.LESSER
+│   └── generic_LGPLv3
+├── libnfnetlink
+│   ├── generic_GPLv2
+│   └── README
+├── libnl
+│   ├── COPYING
+│   └── generic_LGPLv2.1
+├── libnss-mdns
+│   ├── generic_LGPLv2.1
+│   └── LICENSE
+├── libogg
+│   ├── COPYING
+│   ├── generic_BSD
+│   └── ogg.h
+├── libpcap
+│   ├── generic_BSD
+│   ├── LICENSE
+│   └── pcap.h
+├── libpcre
+│   ├── generic_BSD
+│   └── LICENCE
+├── libpcre-native
+│   ├── generic_BSD
+│   └── LICENCE
+├── libsamplerate0
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   └── samplerate.c
+├── libselinux
+│   ├── generic_PD
+│   └── NOTICE
+├── libselinux-native
+│   ├── generic_PD
+│   └── NOTICE
+├── libsndfile1
+│   ├── COPYING
+│   └── generic_LGPLv2.1
+├── libsparse
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libsparse-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── libtool
+│   ├── COPYING
+│   ├── COPYING.LIB
+│   ├── generic_GPLv2
+│   └── generic_LGPLv2.1
+├── libtool-cross
+│   ├── COPYING
+│   ├── COPYING.LIB
+│   ├── generic_GPLv2
+│   └── generic_LGPLv2.1
+├── libtool-native
+│   ├── COPYING
+│   ├── COPYING.LIB
+│   ├── generic_GPLv2
+│   └── generic_LGPLv2.1
+├── libunwind
+│   ├── generic_MIT
+│   └── MIT
+├── liburcu
+│   ├── generic_LGPLv2.1
+│   ├── generic_MIT-style
+│   ├── LICENSE
+│   ├── urcu.h
+│   └── x86.h
+├── libusb1
+│   ├── COPYING
+│   └── generic_LGPLv2.1
+├── libusb-compat
+│   ├── generic_LGPLv2.1
+│   └── LICENSE
+├── libxml2
+│   ├── Copyright
+│   ├── generic_MIT
+│   ├── hash.c
+│   ├── list.c
+│   └── trio.c
+├── libxml2-native
+│   ├── Copyright
+│   ├── generic_MIT
+│   ├── hash.c
+│   ├── list.c
+│   └── trio.c
+├── libxml-parser-perl-native
+│   ├── generic_Artistic-1.0
+│   ├── generic_GPL-1.0
+│   └── README
+├── libxslt-native
+│   ├── Copyright
+│   └── generic_MIT
+├── license.txt
+├── linux-libc-headers
+│   ├── COPYING
+│   └── generic_GPLv2
+├── linux-quic
+│   ├── COPYING
+│   └── generic_GPLv2
+├── lk
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── lttng-ust
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   ├── generic_MIT
+│   ├── snprintf.c
+│   └── various.h
+├── lzo-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── m4-native
+│   ├── COPYING
+│   └── generic_GPLv3
+├── machine-image
+│   ├── COPYING.MIT
+│   ├── generic_MIT
+│   └── LICENSE
+├── machine-image-apq8009-20170314144243
+│   ├── license.manifest
+│   └── package.manifest
+├── machine-image-apq8009-20170315075137
+│   ├── license.manifest
+│   └── package.manifest
+├── machine-recovery-image
+│   ├── COPYING.MIT
+│   ├── generic_MIT
+│   └── LICENSE
+├── machine-recovery-image-apq8009-20170314153015
+│   ├── license.manifest
+│   └── package.manifest
+├── machine-recovery-image-apq8009-20170315075414
+│   ├── license.manifest
+│   └── package.manifest
+├── makedevs-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── mkbootimg-native
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── mklibs-native
+│   ├── copyright
+│   └── generic_GPLv2
+├── mm-osal
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── mm-parser
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── mm-parser-noship
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── modem-shutdown
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── modutils-initscripts
+│   ├── generic_PD
+│   └── LICENSE
+├── mpfr
+│   ├── COPYING
+│   ├── COPYING.LESSER
+│   ├── generic_GPLv3
+│   └── generic_LGPLv3
+├── mpfr-native
+│   ├── COPYING
+│   ├── COPYING.LESSER
+│   ├── generic_GPLv3
+│   └── generic_LGPLv3
+├── mtd-utils-native
+│   ├── common.h
+│   ├── COPYING
+│   └── generic_GPLv2
+├── mtp
+│   ├── generic_Proprietary
+│   └── Makefile
+├── native-frameworks
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── ncurses
+│   ├── generic_MIT
+│   └── version.c
+├── ncurses-native
+│   ├── generic_MIT
+│   └── version.c
+├── netbase
+│   ├── copyright
+│   └── generic_GPLv2
+├── nettle
+│   ├── COPYING.LESSERv3
+│   ├── COPYINGv2
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv3
+│   ├── serpent-decrypt.c
+│   └── serpent-set-key.c
+├── ntp
+│   ├── COPYRIGHT
+│   └── generic_NTP
+├── oem-recovery
+│   ├── BSD
+│   └── generic_BSD
+├── open-source-kernel-tests
+│   ├── BSD
+│   └── generic_BSD
+├── openssl
+│   ├── generic_openssl
+│   └── LICENSE
+├── openssl-native
+│   ├── generic_openssl
+│   └── LICENSE
+├── opkg-native
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   └── opkg.c
+├── opkg-utils
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   └── opkg.py
+├── opkg-utils-native
+│   ├── COPYING
+│   ├── generic_GPLv2
+│   └── opkg.py
+├── ossp-uuid-native
+│   ├── generic_MIT
+│   ├── README
+│   └── uuid_md5.c
+├── packagegroup-core-boot
+├── pciutils
+│   ├── COPYING
+│   └── generic_GPLv2
+├── perl
+│   ├── Artistic
+│   ├── Copying
+│   ├── generic_Artistic-1.0
+│   └── generic_GPL-1.0
+├── perl-native
+│   ├── Artistic
+│   ├── Copying
+│   ├── generic_Artistic-1.0
+│   └── generic_GPL-1.0
+├── pigz-native
+│   ├── generic_Apache-2.0
+│   ├── generic_Zlib
+│   └── pigz.c
+├── pkgconfig
+│   ├── COPYING
+│   └── generic_GPLv2
+├── pkgconfig-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── popt-native
+│   ├── COPYING
+│   └── generic_MIT
+├── powerapp
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── pps-tools
+│   ├── COPYING
+│   └── generic_GPLv2
+├── prelink-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── pseudo-native
+│   ├── COPYING
+│   └── generic_LGPL2.1
+├── pugixml
+│   ├── generic_MIT
+│   └── MIT
+├── pulseaudio
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   ├── GPL
+│   ├── LGPL
+│   ├── LICENSE
+│   └── resampler.h
+├── python
+│   ├── generic_PSFv2
+│   └── LICENSE
+├── python-native
+│   ├── generic_PSFv2
+│   └── LICENSE
+├── qcacld-utils
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── qc-bt-daemon
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── qemuwrapper-cross
+│   ├── COPYING.MIT
+│   └── generic_MIT
+├── qmi
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── qmi-client-helper
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── qmi-framework
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── qmi-shutdown-modem
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── qsthw-api
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── quilt-native
+│   ├── COPYING
+│   └── generic_GPLv2
+├── readline
+│   ├── COPYING
+│   └── generic_GPLv2
+├── readline-native
+│   ├── COPYING
+│   └── generic_GPLv3
+├── reboot-daemon
+│   ├── BSD
+│   └── generic_BSD
+├── recovery
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── rmtstorage
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── rpm-native
+│   ├── COPYING.LIB
+│   └── generic_LGPLv2.1
+├── run-postinsts
+│   ├── COPYING.MIT
+│   ├── generic_MIT
+│   └── LICENSE
+├── safe-iop
+│   ├── generic_ISC
+│   └── ISC
+├── shadow
+│   ├── COPYING
+│   ├── generic_Artistic-1.0
+│   ├── generic_BSD
+│   └── passwd.c
+├── shadow-native
+│   ├── COPYING
+│   ├── generic_Artistic-1.0
+│   ├── generic_BSD
+│   └── passwd.c
+├── shadow-securetty
+│   ├── COPYING.MIT
+│   └── generic_MIT
+├── shadow-sysroot
+│   ├── generic_Artistic-1.0
+│   ├── generic_BSD
+│   └── login.defs_shadow-sysroot
+├── smwrapper
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── soundtrigger
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── speexdsp
+│   ├── COPYING
+│   └── generic_BSD
+├── sqlite3
+│   ├── generic_PD
+│   └── sqlite3.h
+├── sqlite3-native
+│   ├── generic_PD
+│   └── sqlite3.h
+├── stapp
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── start-scripts-find-partitions
+│   ├── BSD
+│   └── generic_BSD
+├── start-scripts-find-recovery-partitions
+│   ├── BSD
+│   └── generic_BSD
+├── start-scripts-firmware-links
+│   ├── BSD
+│   └── generic_BSD
+├── start-scripts-misc-daemon
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── start-scripts-qci-daemon
+│   ├── generic_Proprietary
+│   └── Proprietary
+├── surround-sound
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── surround-sound-3mic
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── system-conf
+│   ├── generic_ISC
+│   └── ISC
+├── system-core
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── system-media
+│   ├── Apache-2.0
+│   └── generic_Apache-2.0
+├── system-prop
+│   ├── BSD
+│   └── generic_BSD
+├── sysvinit
+│   ├── COPYING
+│   ├── COPYRIGHT
+│   └── generic_GPLv2
+├── sysvinit-inittab
+│   ├── generic_GPLv2
+│   └── GPL-2.0
+├── tcpdump
+│   ├── generic_BSD
+│   └── LICENSE
+├── texinfo-dummy-native
+│   ├── COPYING
+│   └── generic_MIT
+├── thermal-engine
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── time-genoff
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── tinyalsa
+│   ├── BSD
+│   └── generic_BSD
+├── tinycompress
+│   ├── COPYING
+│   ├── generic_BSD
+│   └── generic_LGPLv2.1
+├── tzcode-native
+│   ├── generic_BSD
+│   ├── generic_BSD-3-Clause
+│   ├── generic_PD
+│   └── LICENSE
+├── tzdata
+│   ├── generic_BSD
+│   ├── generic_BSD-3-Clause
+│   ├── generic_PD
+│   └── LICENSE
+├── udev
+│   ├── COPYING
+│   ├── generic_GPLv2.0
+│   └── generic_LGPLv2.1
+├── unifdef-native
+│   ├── generic_BSD-2-Clause
+│   └── unifdef.c
+├── unzip-native
+│   ├── generic_BSD-3-Clause
+│   └── LICENSE
+├── update-rc.d
+│   ├── generic_GPLv2
+│   └── update-rc.d
+├── update-rc.d-native
+│   ├── generic_GPLv2
+│   └── update-rc.d
+├── usbutils
+│   ├── COPYING
+│   └── generic_GPLv2
+├── util-linux
+│   ├── COPYING.GPLv2
+│   └── COPYING.LGPLv2.1
+├── util-linux-native
+│   ├── COPYING.GPLv2
+│   └── COPYING.LGPLv2.1
+├── valgrind
+│   ├── COPYING
+│   ├── COPYING.DOCS
+│   ├── generic_BSD
+│   ├── generic_GPLv2
+│   ├── pub_tool_basics.h
+│   └── valgrind.h
+├── wac
+│   ├── generic_Proprietary
+│   └── Makefile
+├── wcnss
+│   ├── BSD
+│   └── generic_BSD
+├── wireless-tools
+│   ├── COPYING
+│   ├── generic_BSD
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   ├── generic_MPL-1.1
+│   ├── iwconfig.c
+│   ├── iwevent.c
+│   └── sample_enc.c
+├── wpa-supplicant-qcacld
+│   ├── BSD
+│   └── generic_BSD
+├── xmllib
+│   ├── generic_Qualcomm-Technologies-Inc.-Proprietary
+│   └── Qualcomm-Technologies-Inc.-Proprietary
+├── xz-native
+│   ├── COPYING
+│   ├── COPYING.GPLv2
+│   ├── COPYING.GPLv3
+│   ├── COPYING.LGPLv2.1
+│   ├── generic_GPL-3.0-with-autoconf-exception
+│   ├── generic_GPLv2
+│   ├── generic_LGPLv2.1
+│   ├── generic_PD
+│   └── getopt.c
+├── zlib
+│   ├── generic_Zlib
+│   └── zlib.h
+└── zlib-native
+    ├── generic_Zlib
+    └── zlib.h
+
+302 directories, 821 files

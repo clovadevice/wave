@@ -1,0 +1,242 @@
+#!/bin/sh
+
+start () {
+    # Disable selinux
+    #setenforce Permissive
+
+    # Enable core dump
+    #ulimit -c unlimited
+
+    # Set console log_level to 4 (Warning Only)
+    echo 4 > /proc/sys/kernel/printk
+
+    if echo "$(cat /proc/cmdline)" | grep 'chargingmode=true'; then
+      echo -n "Starting charging mode"
+      chargemode &
+      return $RETVAL
+    fi
+
+    if echo "$(cat /proc/cmdline)" | grep 'factoryreset=true'; then
+      echo -n "Factory Reset"
+      rm -rf /data/naver/*
+      rm -rf /userconf/*
+      rm -rf /cache/*
+      rm -rf /factory/bt_name
+    fi
+
+    keydet &
+    mkdir -p /system/bin/
+    ln -s /bin/sh /system/bin/sh
+    cp /persist/.bt_nv.bin /data/misc/bluetooth/
+    cp /factory/.bt_nv.bin /data/misc/bluetooth/
+    echo -n "Starting btproperty "
+    btproperty &
+
+    ln -s /data userdata
+
+    #Write touch calibration gain values
+    if [ ! -e /factory/touch_volume_up_cali ]; then
+        echo "touch_volume_up_cali not found!"
+    else
+        echo "touch_volume_up_cali is found!"
+        touch_gain=$(cat /factory/touch_volume_up_cali)
+        echo 0,$touch_gain > /sys/bus/i2c/devices/5-002a/calibration_gain
+    fi
+
+    if [ ! -e /factory/touch_pause_cali ]; then
+        echo "touch_pause_cali not found!"
+    else
+        echo "touch_pause_cali is found!"
+        touch_gain=$(cat /factory/touch_pause_cali)
+        echo 1,$touch_gain > /sys/bus/i2c/devices/1-002a/calibration_gain
+    fi
+
+    if [ ! -e /factory/touch_volume_down_cali ]; then
+        echo "touch_volume_down_cali not found!"
+    else
+        echo "touch_volume_down_cali is found!"
+        touch_gain=$(cat /factory/touch_volume_down_cali)
+        echo 2,$touch_gain > /sys/bus/i2c/devices/1-002a/calibration_gain
+    fi
+
+    if [ ! -e /factory/touch_favorite_1_cali ]; then
+        echo "touch_favorite_1_cali not found!"
+    else
+        echo "touch_favorite_1_cali is found!"
+        touch_gain=$(cat /factory/touch_favorite_1_cali)
+        echo 3,$touch_gain > /sys/bus/i2c/devices/1-002a/calibration_gain
+    fi
+
+    if [ ! -e /factory/touch_favorite_2_cali ]; then
+        echo "touch_favorite_2_cali not found!"
+    else
+        echo "touch_favorite_2_cali is found!"
+        touch_gain=$(cat /factory/touch_favorite_2_cali)
+        echo 4,$touch_gain > /sys/bus/i2c/devices/1-002a/calibration_gain
+    fi
+
+    if [ ! -e /factory/touch_favorite_3_cali ]; then
+        echo "touch_favorite_3_cali not found!"
+    else
+        echo "touch_favorite_3_cali is found!"
+        touch_gain=$(cat /factory/touch_favorite_3_cali)
+        echo 5,$touch_gain > /sys/bus/i2c/devices/5-002a/calibration_gain
+    fi
+
+    #Write ALS calibration gain value
+    if [ ! -e /factory/als_cali ]; then
+        echo "als_cali not found!"
+    else
+        echo "als_cali is found!"
+        lux_gain=$(cat /factory/als_cali)
+        echo $lux_gain > /sys/class/sensors/stk3x1x-light/device/calibration_gain
+        echo $lux_gain > /sys/bus/i2c/devices/1-0029/iio:device0/calibration_gain
+    fi
+
+    #Start of conexant i2c detect
+    i2cget -y -f 4 0x41 0x0 &> /dev/null
+    if [ $? -ne 0 ]; then
+      echo "conexant i2c is not connected ..."
+      CX_EXIST=0
+    else
+        #Add cxdish for conexant fw update.
+        echo "conexant i2c is connected!!"
+        echo -n "Starting cxdish fw check/update daemon"
+        CX_SFS_FW=evk-galaxy-generic.sfs
+        CX_CUR_VER=`/usr/bin/cxdish -D /dev/i2c-4 fw-version|awk '{ print $3}'`
+        CX_TARGET_VER=`cat /etc/update_ver`
+        CX_DATA_PATH=/etc
+        if [ ! $CX_CUR_VER ]; then
+          echo "conexant is not found!!"
+        else
+            echo "found conexant fw version $CX_CUR_VER"
+        fi
+
+        echo "current:$CX_CUR_VER, target:$CX_TARGET_VER"
+        if [ -e $CX_DATA_PATH/$CX_SFS_FW ]; then
+            echo "find fw file $CX_SFS_FW"
+            if [ $CX_TARGET_VER == $CX_CUR_VER ]; then
+                echo "same version: $CX_CUR_VER"
+                rm -f $CX_DATA_PATH/update_ver $CX_DATA_PATH/iflash.bin $CX_DATA_PATH/$CX_SFS_FW
+            else
+                echo "start update!!"
+                /usr/bin/cxdish -r 27 -D /dev/i2c-4 flash $CX_DATA_PATH/$CX_SFS_FW $CX_DATA_PATH/iflash.bin
+                CX_CUR_VER=`/usr/bin/cxdish -D /dev/i2c-4 fw-version|awk '{ print $3}'`
+                if [ $CX_TARGET_VER  == $CX_CUR_VER ]; then
+                    echo "===== update finished ====="
+                    rm -f $CX_DATA_PATH/update_ver $CX_DATA_PATH/iflash.bin $CX_DATA_PATH/$CX_SFS_FW
+                    reboot -f
+                else
+                    echo ">>>>> update failed <<<<<"
+                fi
+            fi
+        else
+            echo "file does not exist!!"
+        fi
+
+        #Add enable ZSW1 mode for temp solution.
+        #/usr/bin/cxdish -D /dev/i2c-4 sendcmd 0xB32D2300 0x00000004 0x477cfa00
+        #echo "CX20924: change default mode as ZSW1"
+
+        #Add enable ZM26 mode for temp solution.
+        #/usr/bin/cxdish -D /dev/i2c-4 sendcmd 0xB32D2300 0x00000004 0x592b7a00
+        #echo "CX20924: change default mode as ZM26"
+    fi
+    #End of conexant i2c detect
+
+    echo -n "Starting PulseAudio server and Airplay daemon"
+    adduser root audio
+    adduser pulse root
+    c=0
+    while [ $c -lt 32 ]; do
+      c=`expr $c + 1`
+      if [ $(cat /proc/asound/card0/id) == apq8009tashalit ]
+      then
+        cnxt=1
+        qcom=0
+        busybox sed -i 's/hw:1/hw:0/g' /usr/share/alsa/ucm/wcd9326/hifi
+        busybox sed -i 's/hw:1/hw:0/g' /usr/share/alsa/ucm/wcd9326/wcd9326.conf
+      else
+        cnxt=0
+        qcom=1
+        busybox sed -i 's/hw:0/hw:1/g' /usr/share/alsa/ucm/wcd9326/hifi
+        busybox sed -i 's/hw:0/hw:1/g' /usr/share/alsa/ucm/wcd9326/wcd9326.conf
+      fi
+
+      alsaucm -c wcd9326 set _verb HiFi set _enadev Speaker 2>&1 >/dev/null
+      pulseaudio --system --daemonize --verbose --log-target=syslog \
+      --load="module-alsa-card device_id=$cnxt rate=16000 mmap=true tsched=true" \
+      --load="module-remap-source master=alsa_input.$cnxt.analog-stereo source_name=mono_in channels=1 channel_map=left" \
+      --load="module-alsa-card device_id=$qcom rate=48000 mmap=true tsched=0 fragment_size=4096 fragments=2 fixed_latency_range=0" \
+      --load="module-remap-sink master=alsa_output.$qcom.analog-stereo sink_name=mono_out channels=2 channel_map=mono,mono" \
+      && break
+      sleep 1
+      pactl set-default-sink mono_out
+      pactl set-default-source mono_in
+    done
+
+    (while true; do
+      (pgrep pulseaudio >/dev/null) || \
+      pulseaudio --system --daemonize --verbose --log-target=syslog \
+      --load="module-alsa-card device_id=$cnxt rate=16000 mmap=true tsched=true" \
+      --load="module-remap-source master=alsa_input.$cnxt.analog-stereo source_name=mono_in channels=1 channel_map=left" \
+      --load="module-alsa-card device_id=$qcom rate=48000 mmap=true tsched=0 fragment_size=4096 fragments=2 fixed_latency_range=0" \
+      --load="module-remap-sink master=alsa_output.$qcom.analog-stereo sink_name=mono_out channels=2 channel_map=mono,mono"
+      sleep 5
+      pactl set-default-sink mono_out
+      pactl set-default-source mono_in
+    done)&
+
+    # Wait for wlan0 interface to be ready
+    while true; do
+      (ifconfig wlan0 2>/dev/null | grep "wlan0" >/dev/null) && break
+      sleep 1
+    done
+
+    start-stop-daemon --start --quiet --oknodo --pidfile /var/run/ntpd.pid --startas /usr/sbin/ntpd -- -g -p /var/run/ntpd.pid
+    #avahi-daemon --daemonize --no-drop-root
+    chmod 777 /naver/aemp/aemp
+
+    RETVAL=$?
+    echo
+    return $RETVAL
+}
+
+stop () {
+    echo -n "Stop $NAME"
+    $SSD --stop --oknodo --pidfile $PID
+
+    RETVAL=$?
+    echo
+    return $RETVAL
+}
+
+restart () {
+    stop
+    sleep 1
+    start
+}
+
+case "$1" in
+start)
+    start
+    ;;
+
+stop)
+    stop
+    ;;
+
+status)
+    echo "TODO: Currently Not Supported"
+    ;;
+
+restart)
+    restart
+    ;;
+
+*)
+    echo "Usage: $0 {start|stop|restart}"
+    exit 1
+esac
+
+exit $RETVAL

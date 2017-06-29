@@ -1,0 +1,25 @@
+From 4025a93f11ba2b30fdad309ab456b9140dfe39e0 Mon Sep 17 00:00:00 2001
+From: Arun Kumar Dasari <Arun@codeaurora.org>
+Date: Tue, 28 Jun 2016 13:10:27 +0530
+Subject: [PATCH] tinyalsa: Added avail_min member
+
+Added Avail_min member in pcm_config structure
+---
+ /git/include/tinyalsa/asoundlib.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/git/include/tinyalsa/asoundlib.h b/git/include/tinyalsa/asoundlib.h
+index 8fb7c95..39d21bf 100644
+--- a/git/include/tinyalsa/asoundlib.h
++++ b/git/include/tinyalsa/asoundlib.h
+@@ -98,6 +98,7 @@ struct pcm_config {
+     unsigned int start_threshold;
+     unsigned int stop_threshold;
+     unsigned int silence_threshold;
++    int avail_min;
+ };
+ 
+ /* PCM parameters */
+-- 
+1.9.1
+
