@@ -1,0 +1,1740 @@
+PACKAGE NAME: acdb-fts
+PACKAGE VERSION: git
+RECIPE NAME: acdb-fts
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: acdb-mcs
+PACKAGE VERSION: git
+RECIPE NAME: acdb-mcs
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: acdbloader
+PACKAGE VERSION: git
+RECIPE NAME: acdbloader
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: acdbloader-dev
+PACKAGE VERSION: git
+RECIPE NAME: acdbloader
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: acdbmapper
+PACKAGE VERSION: git
+RECIPE NAME: acdbmapper
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: acdbmapper-dev
+PACKAGE VERSION: git
+RECIPE NAME: acdbmapper
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: acdbrtac
+PACKAGE VERSION: 1.0
+RECIPE NAME: acdbrtac
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: acdbrtac-dev
+PACKAGE VERSION: 1.0
+RECIPE NAME: acdbrtac
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: adiertac
+PACKAGE VERSION: 1.0
+RECIPE NAME: adiertac
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: adiertac-dev
+PACKAGE VERSION: 1.0
+RECIPE NAME: adiertac
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: adpcm-dec
+PACKAGE VERSION: git
+RECIPE NAME: adpcm-dec
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: adreno200
+PACKAGE VERSION: git
+RECIPE NAME: adreno200
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: adsprpc
+PACKAGE VERSION: git
+RECIPE NAME: adsprpc
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: aemp
+PACKAGE VERSION: 1.0
+RECIPE NAME: aemp
+LICENSE: Proprietary
+
+PACKAGE NAME: alsa-conf
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-lib
+LICENSE: LGPLv2.1 & GPLv2+
+
+PACKAGE NAME: alsa-conf-base
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-lib
+LICENSE: LGPLv2.1 & GPLv2+
+
+PACKAGE NAME: alsa-intf
+PACKAGE VERSION: git
+RECIPE NAME: alsa-intf
+LICENSE: Apache-2.0
+
+PACKAGE NAME: alsa-lib
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-lib
+LICENSE: LGPLv2.1 & GPLv2+
+
+PACKAGE NAME: alsa-plugins-pulseaudio-conf
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-plugins
+LICENSE: LGPLv2.1 & GPLv2+
+
+PACKAGE NAME: alsa-states
+PACKAGE VERSION: 0.2.0
+RECIPE NAME: alsa-state
+LICENSE: MIT
+
+PACKAGE NAME: alsa-utils
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-aconnect
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-alsactl
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-alsaloop
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-alsamixer
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-alsaucm
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-amixer
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-aplay
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-aseqdump
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-aseqnet
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-iecset
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-midi
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsa-utils-speakertest
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: alsaucm-conf
+PACKAGE VERSION: 1.0
+RECIPE NAME: alsaucm-conf
+LICENSE: BSD
+
+PACKAGE NAME: atfwd-daemon
+PACKAGE VERSION: git
+RECIPE NAME: atfwd-daemon
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audcal
+PACKAGE VERSION: git
+RECIPE NAME: audcal
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audcal-dev
+PACKAGE VERSION: git
+RECIPE NAME: audcal
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audcaltests
+PACKAGE VERSION: git
+RECIPE NAME: audcaltests
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-codecs-noship
+PACKAGE VERSION: git
+RECIPE NAME: audio-codecs-noship
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-dev-arbi
+PACKAGE VERSION: git
+RECIPE NAME: audio-dev-arbi
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-effects
+PACKAGE VERSION: git
+RECIPE NAME: audio-effects
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-effects-noship
+PACKAGE VERSION: git
+RECIPE NAME: audio-effects-noship
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-ftm
+PACKAGE VERSION: git
+RECIPE NAME: audio-ftm
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-generic-effect-framework
+PACKAGE VERSION: git
+RECIPE NAME: audio-generic-effect-framework
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-listen-noship
+PACKAGE VERSION: git
+RECIPE NAME: audio-listen-noship
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-parsers
+PACKAGE VERSION: git
+RECIPE NAME: audio-parsers
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audio-resampler
+PACKAGE VERSION: git
+RECIPE NAME: audio-resampler
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audioalsa
+PACKAGE VERSION: git
+RECIPE NAME: audioalsa
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audioalsa-dev
+PACKAGE VERSION: git
+RECIPE NAME: audioalsa
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: audiohal
+PACKAGE VERSION: 1.0
+RECIPE NAME: audiohal
+LICENSE: BSD
+
+PACKAGE NAME: audiohal-dev
+PACKAGE VERSION: 1.0
+RECIPE NAME: audiohal
+LICENSE: BSD
+
+PACKAGE NAME: av-frameworks
+PACKAGE VERSION: git
+RECIPE NAME: av-frameworks
+LICENSE: Apache-2.0
+
+PACKAGE NAME: av-frameworks-dev
+PACKAGE VERSION: git
+RECIPE NAME: av-frameworks
+LICENSE: Apache-2.0
+
+PACKAGE NAME: base-files
+PACKAGE VERSION: 3.0.14
+RECIPE NAME: base-files
+LICENSE: GPLv2
+
+PACKAGE NAME: base-passwd
+PACKAGE VERSION: 3.5.29
+RECIPE NAME: base-passwd
+LICENSE: GPLv2+
+
+PACKAGE NAME: bash
+PACKAGE VERSION: 4.3.30
+RECIPE NAME: bash
+LICENSE: GPLv3+
+
+PACKAGE NAME: bluez5
+PACKAGE VERSION: 5.19
+RECIPE NAME: bluez5
+LICENSE: GPLv2+ & LGPLv2.1+
+
+PACKAGE NAME: bt-app
+PACKAGE VERSION: git
+RECIPE NAME: bt-app
+LICENSE: Apache-2.0
+
+PACKAGE NAME: bt-property
+PACKAGE VERSION: git
+RECIPE NAME: bt-property
+LICENSE: Apache-2.0
+
+PACKAGE NAME: bt-services
+PACKAGE VERSION: 1.0
+RECIPE NAME: bt-services
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: btvendorhal
+PACKAGE VERSION: git
+RECIPE NAME: btvendorhal
+LICENSE: Apache-2.0
+
+PACKAGE NAME: busybox
+PACKAGE VERSION: 1.23.2
+RECIPE NAME: busybox
+LICENSE: GPLv2 & bzip2
+
+PACKAGE NAME: busybox-hwclock
+PACKAGE VERSION: 1.23.2
+RECIPE NAME: busybox
+LICENSE: GPLv2 & bzip2
+
+PACKAGE NAME: busybox-syslog
+PACKAGE VERSION: 1.23.2
+RECIPE NAME: busybox
+LICENSE: GPLv2 & bzip2
+
+PACKAGE NAME: busybox-udhcpc
+PACKAGE VERSION: 1.23.2
+RECIPE NAME: busybox
+LICENSE: GPLv2 & bzip2
+
+PACKAGE NAME: bzip2
+PACKAGE VERSION: 1.0.6
+RECIPE NAME: bzip2
+LICENSE: bzip2
+
+PACKAGE NAME: bzip2-dev
+PACKAGE VERSION: 1.0.6
+RECIPE NAME: bzip2
+LICENSE: bzip2
+
+PACKAGE NAME: ca-certificates
+PACKAGE VERSION: 20150426
+RECIPE NAME: ca-certificates
+LICENSE: GPL-2.0+ & MPL-2.0
+
+PACKAGE NAME: chargemode
+PACKAGE VERSION: 1.0
+RECIPE NAME: chargemode
+LICENSE: Proprietary
+
+PACKAGE NAME: common
+PACKAGE VERSION: git
+RECIPE NAME: common
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: common-dev
+PACKAGE VERSION: git
+RECIPE NAME: common
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: configdb
+PACKAGE VERSION: git
+RECIPE NAME: configdb
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: cryptodev-linux
+PACKAGE VERSION: 1.7
+RECIPE NAME: cryptodev-linux
+LICENSE: GPLv2
+
+PACKAGE NAME: cryptodev-linux-dev
+PACKAGE VERSION: 1.7
+RECIPE NAME: cryptodev-linux
+LICENSE: GPLv2
+
+PACKAGE NAME: curl
+PACKAGE VERSION: 7.51.0
+RECIPE NAME: curl
+LICENSE: MIT
+
+PACKAGE NAME: data
+PACKAGE VERSION: git
+RECIPE NAME: data
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: data-oss
+PACKAGE VERSION: git
+RECIPE NAME: data-oss
+LICENSE: BSD
+
+PACKAGE NAME: db
+PACKAGE VERSION: 6.0.30
+RECIPE NAME: db
+LICENSE: AGPL-3.0
+
+PACKAGE NAME: db-dev
+PACKAGE VERSION: 6.0.30
+RECIPE NAME: db
+LICENSE: AGPL-3.0
+
+PACKAGE NAME: dbus
+PACKAGE VERSION: 1.8.20
+RECIPE NAME: dbus
+LICENSE: AFL-2 | GPLv2+
+
+PACKAGE NAME: dbus-lib
+PACKAGE VERSION: 1.8.20
+RECIPE NAME: dbus
+LICENSE: AFL-2 | GPLv2+
+
+PACKAGE NAME: dhcpcd
+PACKAGE VERSION: 5.2.10
+RECIPE NAME: dhcpcd
+LICENSE: BSD
+
+PACKAGE NAME: diag
+PACKAGE VERSION: git
+RECIPE NAME: diag
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: diag-dev
+PACKAGE VERSION: git
+RECIPE NAME: diag
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: diag-reboot-app
+PACKAGE VERSION: git
+RECIPE NAME: diag-reboot-app
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: display-hal-linux
+PACKAGE VERSION: git
+RECIPE NAME: display-hal-linux
+LICENSE: BSD
+
+PACKAGE NAME: dnsmasq
+PACKAGE VERSION: 2.68
+RECIPE NAME: dnsmasq
+LICENSE: GPL
+
+PACKAGE NAME: drc
+PACKAGE VERSION: git
+RECIPE NAME: drc
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: dsutils
+PACKAGE VERSION: git
+RECIPE NAME: dsutils
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: e2fsprogs-e2fsck
+PACKAGE VERSION: 1.42.9
+RECIPE NAME: e2fsprogs
+LICENSE: GPLv2
+
+PACKAGE NAME: ebtables
+PACKAGE VERSION: v2.0.10-4
+RECIPE NAME: ebtables
+LICENSE: GPLv2
+
+PACKAGE NAME: encoders
+PACKAGE VERSION: 1.0
+RECIPE NAME: encoders
+LICENSE: BSD
+
+PACKAGE NAME: ethtool
+PACKAGE VERSION: git
+RECIPE NAME: ethtool
+LICENSE: GPLv2
+
+PACKAGE NAME: expat
+PACKAGE VERSION: 2.1.0
+RECIPE NAME: expat
+LICENSE: MIT
+
+PACKAGE NAME: expat-dev
+PACKAGE VERSION: 2.1.0
+RECIPE NAME: expat
+LICENSE: MIT
+
+PACKAGE NAME: ext4-utils
+PACKAGE VERSION: git
+RECIPE NAME: ext4-utils
+LICENSE: Apache-2.0
+
+PACKAGE NAME: ext4-utils-dev
+PACKAGE VERSION: git
+RECIPE NAME: ext4-utils
+LICENSE: Apache-2.0
+
+PACKAGE NAME: ffmpeg
+PACKAGE VERSION: 2.7.6
+RECIPE NAME: ffmpeg
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: fluoride
+PACKAGE VERSION: git
+RECIPE NAME: fluoride
+LICENSE: Apache-2.0
+
+PACKAGE NAME: ftm
+PACKAGE VERSION: git
+RECIPE NAME: ftm
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: gcc
+PACKAGE VERSION: 4.9.3
+RECIPE NAME: gcc
+LICENSE: GPL-3.0-with-GCC-exception & GPLv3
+
+PACKAGE NAME: gdb
+PACKAGE VERSION: 7.9.1
+RECIPE NAME: gdb
+LICENSE: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+
+PACKAGE NAME: gdbm
+PACKAGE VERSION: 1.11
+RECIPE NAME: gdbm
+LICENSE: GPLv3
+
+PACKAGE NAME: gdbm-compat
+PACKAGE VERSION: 1.11
+RECIPE NAME: gdbm
+LICENSE: GPLv3
+
+PACKAGE NAME: gdbm-dev
+PACKAGE VERSION: 1.11
+RECIPE NAME: gdbm
+LICENSE: GPLv3
+
+PACKAGE NAME: glib-2.0
+PACKAGE VERSION: 2.44.1
+RECIPE NAME: glib-2.0
+LICENSE: LGPLv2+ & BSD & PD
+
+PACKAGE NAME: glib-2.0-dev
+PACKAGE VERSION: 2.44.1
+RECIPE NAME: glib-2.0
+LICENSE: LGPLv2+ & BSD & PD
+
+PACKAGE NAME: glibc
+PACKAGE VERSION: 2.22
+RECIPE NAME: glibc
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: glibc-dbg
+PACKAGE VERSION: 2.22
+RECIPE NAME: glibc
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: glibc-dev
+PACKAGE VERSION: 2.22
+RECIPE NAME: glibc
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: glibc-extra-nss
+PACKAGE VERSION: 2.22
+RECIPE NAME: glibc
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: glibc-thread-db
+PACKAGE VERSION: 2.22
+RECIPE NAME: glibc
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: gmp
+PACKAGE VERSION: 6.0.0
+RECIPE NAME: gmp
+LICENSE: GPLv2+ | LGPLv3+
+
+PACKAGE NAME: gnutls
+PACKAGE VERSION: 3.3.17.1
+RECIPE NAME: gnutls
+LICENSE: LGPLv2.1+
+
+PACKAGE NAME: graphite-client
+PACKAGE VERSION: git
+RECIPE NAME: graphite-client
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: graphite-client-dev
+PACKAGE VERSION: git
+RECIPE NAME: graphite-client
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: hci-qcomm-init
+PACKAGE VERSION: git
+RECIPE NAME: hci-qcomm-init
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: hostap-daemon-qcacld
+PACKAGE VERSION: git
+RECIPE NAME: hostap-daemon-qcacld
+LICENSE: BSD
+
+PACKAGE NAME: i2c-tools
+PACKAGE VERSION: 3.1.2
+RECIPE NAME: i2c-tools
+LICENSE: GPLv2+
+
+PACKAGE NAME: init-audio
+PACKAGE VERSION: git
+RECIPE NAME: init-audio
+LICENSE: BSD
+
+PACKAGE NAME: init-ifupdown
+PACKAGE VERSION: 1.0
+RECIPE NAME: init-ifupdown
+LICENSE: GPLv2
+
+PACKAGE NAME: init-mss
+PACKAGE VERSION: git
+RECIPE NAME: init-mss
+LICENSE: BSD
+
+PACKAGE NAME: initscripts
+PACKAGE VERSION: 1.0
+RECIPE NAME: initscripts
+LICENSE: GPLv2
+
+PACKAGE NAME: initscripts-dev
+PACKAGE VERSION: 1.0
+RECIPE NAME: initscripts
+LICENSE: GPLv2
+
+PACKAGE NAME: initscripts-functions
+PACKAGE VERSION: 1.0
+RECIPE NAME: initscripts
+LICENSE: GPLv2
+
+PACKAGE NAME: iproute2
+PACKAGE VERSION: 3.9.0
+RECIPE NAME: iproute2
+LICENSE: GPLv2+
+
+PACKAGE NAME: iptables
+PACKAGE VERSION: 1.4.12.1
+RECIPE NAME: iptables
+LICENSE: GPLv2+
+
+PACKAGE NAME: iw
+PACKAGE VERSION: 3.6
+RECIPE NAME: iw
+LICENSE: BSD
+
+PACKAGE NAME: json-c
+PACKAGE VERSION: 0.12
+RECIPE NAME: json-c
+LICENSE: MIT
+
+PACKAGE NAME: kbd
+PACKAGE VERSION: 2.0.2
+RECIPE NAME: kbd
+LICENSE: GPLv2+
+
+PACKAGE NAME: kbd-consolefonts
+PACKAGE VERSION: 2.0.2
+RECIPE NAME: kbd
+LICENSE: GPLv2+
+
+PACKAGE NAME: kbd-keymaps
+PACKAGE VERSION: 2.0.2
+RECIPE NAME: kbd
+LICENSE: GPLv2+
+
+PACKAGE NAME: keydet
+PACKAGE VERSION: 1.0
+RECIPE NAME: keydet
+LICENSE: Proprietary
+
+PACKAGE NAME: keymaps
+PACKAGE VERSION: 1.0
+RECIPE NAME: keymaps
+LICENSE: GPLv2
+
+PACKAGE NAME: kmod
+PACKAGE VERSION: 21+gitAUTOINC+114ec87c85
+RECIPE NAME: kmod
+LICENSE: GPL-2.0+ & LGPL-2.1+
+
+PACKAGE NAME: libacl
+PACKAGE VERSION: 2.2.52
+RECIPE NAME: acl
+LICENSE: LGPLv2.1+
+
+PACKAGE NAME: libasound
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-lib
+LICENSE: LGPLv2.1 & GPLv2+
+
+PACKAGE NAME: libasound-module-conf-pulse
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-plugins
+LICENSE: LGPLv2.1 & GPLv2+
+
+PACKAGE NAME: libasound-module-ctl-pulse
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-plugins
+LICENSE: LGPLv2.1 & GPLv2+
+
+PACKAGE NAME: libasound-module-pcm-pulse
+PACKAGE VERSION: 1.0.29
+RECIPE NAME: alsa-plugins
+LICENSE: LGPLv2.1 & GPLv2+
+
+PACKAGE NAME: libatomic-ops
+PACKAGE VERSION: 7.4.2
+RECIPE NAME: libatomic-ops
+LICENSE: GPLv2 & MIT
+
+PACKAGE NAME: libatomic-ops-dev
+PACKAGE VERSION: 7.4.2
+RECIPE NAME: libatomic-ops
+LICENSE: GPLv2 & MIT
+
+PACKAGE NAME: libattr
+PACKAGE VERSION: 2.4.47
+RECIPE NAME: attr
+LICENSE: LGPLv2.1+
+
+PACKAGE NAME: libbt-vendor
+PACKAGE VERSION: git
+RECIPE NAME: libbt-vendor
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libbz2
+PACKAGE VERSION: 1.0.6
+RECIPE NAME: bzip2
+LICENSE: bzip2
+
+PACKAGE NAME: libcap
+PACKAGE VERSION: 2.24
+RECIPE NAME: libcap
+LICENSE: BSD | GPLv2
+
+PACKAGE NAME: libcidn
+PACKAGE VERSION: 2.22
+RECIPE NAME: glibc
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: libcomerr
+PACKAGE VERSION: 1.42.9
+RECIPE NAME: e2fsprogs
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+
+PACKAGE NAME: libcrypto
+PACKAGE VERSION: 1.0.2h
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: libcurl
+PACKAGE VERSION: 7.51.0
+RECIPE NAME: curl
+LICENSE: MIT
+
+PACKAGE NAME: libcutils
+PACKAGE VERSION: 1.0
+RECIPE NAME: libcutils
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libcutils-dev
+PACKAGE VERSION: 1.0
+RECIPE NAME: libcutils
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libe2p
+PACKAGE VERSION: 1.42.9
+RECIPE NAME: e2fsprogs
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+
+PACKAGE NAME: libext2fs
+PACKAGE VERSION: 1.42.9
+RECIPE NAME: e2fsprogs
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+
+PACKAGE NAME: libffi
+PACKAGE VERSION: 3.2.1
+RECIPE NAME: libffi
+LICENSE: MIT
+
+PACKAGE NAME: libffi-dev
+PACKAGE VERSION: 3.2.1
+RECIPE NAME: libffi
+LICENSE: MIT
+
+PACKAGE NAME: libgcc
+PACKAGE VERSION: 4.9.3
+RECIPE NAME: libgcc
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libgcc-dev
+PACKAGE VERSION: 4.9.3
+RECIPE NAME: libgcc
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libhardware
+PACKAGE VERSION: git
+RECIPE NAME: libhardware
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libhardware-dev
+PACKAGE VERSION: git
+RECIPE NAME: libhardware
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libical
+PACKAGE VERSION: 1.0.0
+RECIPE NAME: libical
+LICENSE: LGPLv2.1 | MPL-1
+
+PACKAGE NAME: libkmod
+PACKAGE VERSION: 21+gitAUTOINC+114ec87c85
+RECIPE NAME: kmod
+LICENSE: LGPL-2.1+
+
+PACKAGE NAME: liblog
+PACKAGE VERSION: 1.0
+RECIPE NAME: liblog
+LICENSE: Apache-2.0
+
+PACKAGE NAME: liblog-dev
+PACKAGE VERSION: 1.0
+RECIPE NAME: liblog
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libltdl
+PACKAGE VERSION: 2.4.6
+RECIPE NAME: libtool
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: liblzma
+PACKAGE VERSION: 5.2.1
+RECIPE NAME: xz
+LICENSE: PD
+
+PACKAGE NAME: libmincrypt
+PACKAGE VERSION: git
+RECIPE NAME: libmincrypt
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libmincrypt-dev
+PACKAGE VERSION: git
+RECIPE NAME: libmincrypt
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libmpc
+PACKAGE VERSION: 1.0.3
+RECIPE NAME: libmpc
+LICENSE: LGPLv3
+
+PACKAGE NAME: libnfnetlink
+PACKAGE VERSION: 1.0.0
+RECIPE NAME: libnfnetlink
+LICENSE: GPLv2+
+
+PACKAGE NAME: libnl
+PACKAGE VERSION: 3.2.25
+RECIPE NAME: libnl
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libnl-cli
+PACKAGE VERSION: 3.2.25
+RECIPE NAME: libnl
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libnl-genl
+PACKAGE VERSION: 3.2.25
+RECIPE NAME: libnl
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libnl-nf
+PACKAGE VERSION: 3.2.25
+RECIPE NAME: libnl
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libnl-route
+PACKAGE VERSION: 3.2.25
+RECIPE NAME: libnl
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libpcap
+PACKAGE VERSION: 1.6.2
+RECIPE NAME: libpcap
+LICENSE: BSD
+
+PACKAGE NAME: libpcre
+PACKAGE VERSION: 8.38
+RECIPE NAME: libpcre
+LICENSE: BSD
+
+PACKAGE NAME: libpcre-dev
+PACKAGE VERSION: 8.38
+RECIPE NAME: libpcre
+LICENSE: BSD
+
+PACKAGE NAME: libpcrecpp
+PACKAGE VERSION: 8.38
+RECIPE NAME: libpcre
+LICENSE: BSD
+
+PACKAGE NAME: libpcreposix
+PACKAGE VERSION: 8.38
+RECIPE NAME: libpcre
+LICENSE: BSD
+
+PACKAGE NAME: libpulse
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: libpulsecommon
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: libpulsecore
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: libpython2
+PACKAGE VERSION: 2.7.9
+RECIPE NAME: python
+LICENSE: PSFv2
+
+PACKAGE NAME: libsamplerate0
+PACKAGE VERSION: 0.1.8
+RECIPE NAME: libsamplerate0
+LICENSE: GPLv2+
+
+PACKAGE NAME: libselinux
+PACKAGE VERSION: 2.4
+RECIPE NAME: libselinux
+LICENSE: PD
+
+PACKAGE NAME: libselinux-dev
+PACKAGE VERSION: 2.4
+RECIPE NAME: libselinux
+LICENSE: PD
+
+PACKAGE NAME: libsepol
+PACKAGE VERSION: 2.4
+RECIPE NAME: libsepol
+LICENSE: LGPLv2+
+
+PACKAGE NAME: libsepol-dev
+PACKAGE VERSION: 2.4
+RECIPE NAME: libsepol
+LICENSE: LGPLv2+
+
+PACKAGE NAME: libsndfile1
+PACKAGE VERSION: 1.0.25
+RECIPE NAME: libsndfile1
+LICENSE: LGPLv2.1
+
+PACKAGE NAME: libsparse
+PACKAGE VERSION: 1.0
+RECIPE NAME: libsparse
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libsparse-dev
+PACKAGE VERSION: 1.0
+RECIPE NAME: libsparse
+LICENSE: Apache-2.0
+
+PACKAGE NAME: libsqlite3
+PACKAGE VERSION: 3.8.10.2
+RECIPE NAME: sqlite3
+LICENSE: PD
+
+PACKAGE NAME: libsqlite3-dev
+PACKAGE VERSION: 3.8.10.2
+RECIPE NAME: sqlite3
+LICENSE: PD
+
+PACKAGE NAME: libssl
+PACKAGE VERSION: 1.0.2h
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: libstdc++
+PACKAGE VERSION: 4.9.3
+RECIPE NAME: gcc-runtime
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libstdc++-dev
+PACKAGE VERSION: 4.9.3
+RECIPE NAME: gcc-runtime
+LICENSE: GPL-3.0-with-GCC-exception
+
+PACKAGE NAME: libsystemd
+PACKAGE VERSION: 225+gitAUTOINC+e1439a1472
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: libudev
+PACKAGE VERSION: 225+gitAUTOINC+e1439a1472
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: libunwind
+PACKAGE VERSION: 1.0
+RECIPE NAME: libunwind
+LICENSE: MIT
+
+PACKAGE NAME: libunwind-dev
+PACKAGE VERSION: 1.0
+RECIPE NAME: libunwind
+LICENSE: MIT
+
+PACKAGE NAME: libxml2
+PACKAGE VERSION: 2.9.2
+RECIPE NAME: libxml2
+LICENSE: MIT
+
+PACKAGE NAME: linux-libc-headers-dev
+PACKAGE VERSION: 4.1
+RECIPE NAME: linux-libc-headers
+LICENSE: GPLv2
+
+PACKAGE NAME: media
+PACKAGE VERSION: 0.1
+RECIPE NAME: media
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: media-dev
+PACKAGE VERSION: 0.1
+RECIPE NAME: media
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: mm-osal
+PACKAGE VERSION: git
+RECIPE NAME: mm-osal
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: mm-parser
+PACKAGE VERSION: 0.1
+RECIPE NAME: mm-parser
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: mm-parser-noship
+PACKAGE VERSION: 0.1
+RECIPE NAME: mm-parser-noship
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: modem-shutdown
+PACKAGE VERSION: 1.0
+RECIPE NAME: modem-shutdown
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: modutils-initscripts
+PACKAGE VERSION: 1.0
+RECIPE NAME: modutils-initscripts
+LICENSE: PD
+
+PACKAGE NAME: mpfr
+PACKAGE VERSION: 3.1.3
+RECIPE NAME: mpfr
+LICENSE: GPLv3 & LGPLv3
+
+PACKAGE NAME: native-frameworks
+PACKAGE VERSION: git
+RECIPE NAME: native-frameworks
+LICENSE: Apache-2.0
+
+PACKAGE NAME: native-frameworks-dev
+PACKAGE VERSION: git
+RECIPE NAME: native-frameworks
+LICENSE: Apache-2.0
+
+PACKAGE NAME: ncurses
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-dev
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libform
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libformw
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libmenu
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libmenuw
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libncurses
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libncursesw
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libpanel
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libpanelw
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libtic
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libticw
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-libtinfo
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: ncurses-terminfo-base
+PACKAGE VERSION: 5.9
+RECIPE NAME: ncurses
+LICENSE: MIT
+
+PACKAGE NAME: netbase
+PACKAGE VERSION: 5.3
+RECIPE NAME: netbase
+LICENSE: GPLv2
+
+PACKAGE NAME: nettle
+PACKAGE VERSION: 3.1.1
+RECIPE NAME: nettle
+LICENSE: LGPLv3+ | GPLv2+
+
+PACKAGE NAME: ntp
+PACKAGE VERSION: 4.2.8
+RECIPE NAME: ntp
+LICENSE: NTP
+
+PACKAGE NAME: ntp-tickadj
+PACKAGE VERSION: 4.2.8
+RECIPE NAME: ntp
+LICENSE: NTP
+
+PACKAGE NAME: omx
+PACKAGE VERSION: git
+RECIPE NAME: omx
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: omx-noship
+PACKAGE VERSION: git
+RECIPE NAME: omx-noship
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: omx-noship-dev
+PACKAGE VERSION: git
+RECIPE NAME: omx-noship
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: openssl
+PACKAGE VERSION: 1.0.2h
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: openssl-conf
+PACKAGE VERSION: 1.0.2h
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: openssl-dev
+PACKAGE VERSION: 1.0.2h
+RECIPE NAME: openssl
+LICENSE: openssl
+
+PACKAGE NAME: os-release
+PACKAGE VERSION: 1.0
+RECIPE NAME: os-release
+LICENSE: MIT
+
+PACKAGE NAME: packagegroup-core-boot
+PACKAGE VERSION: 1.0
+RECIPE NAME: packagegroup-core-boot
+LICENSE: MIT
+
+PACKAGE NAME: perl
+PACKAGE VERSION: 5.22.0
+RECIPE NAME: perl
+LICENSE: Artistic-1.0 | GPL-1.0+
+
+PACKAGE NAME: perl-lib
+PACKAGE VERSION: 5.22.0
+RECIPE NAME: perl
+LICENSE: Artistic-1.0 | GPL-1.0+
+
+PACKAGE NAME: pugixml
+PACKAGE VERSION: 1.4
+RECIPE NAME: pugixml
+LICENSE: MIT
+
+PACKAGE NAME: pulseaudio-lib-alsa-util
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-lib-protocol-native
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-alsa-card
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-alsa-sink
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-alsa-source
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-always-sink
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-augment-properties
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-card-restore
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-default-device-restore
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-detect
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-device-restore
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-filter-apply
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-filter-heuristics
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-intended-roles
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-native-protocol-unix
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-null-sink
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-position-event-sounds
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-remap-sink
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-remap-source
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-rescue-streams
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-role-cork
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-stream-restore
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-suspend-on-idle
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-switch-on-port-available
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-module-udev-detect
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: pulseaudio-server
+PACKAGE VERSION: 6.0
+RECIPE NAME: pulseaudio
+LICENSE: GPLv2+ & LGPLv2.1
+
+PACKAGE NAME: python-core
+PACKAGE VERSION: 2.7.9
+RECIPE NAME: python
+LICENSE: PSFv2
+
+PACKAGE NAME: python-dev
+PACKAGE VERSION: 2.7.9
+RECIPE NAME: python
+LICENSE: PSFv2
+
+PACKAGE NAME: python-lang
+PACKAGE VERSION: 2.7.9
+RECIPE NAME: python
+LICENSE: PSFv2
+
+PACKAGE NAME: python-re
+PACKAGE VERSION: 2.7.9
+RECIPE NAME: python
+LICENSE: PSFv2
+
+PACKAGE NAME: python-readline
+PACKAGE VERSION: 2.7.9
+RECIPE NAME: python
+LICENSE: PSFv2
+
+PACKAGE NAME: qc-bt-daemon
+PACKAGE VERSION: git
+RECIPE NAME: qc-bt-daemon
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: qcacld-utils
+PACKAGE VERSION: git
+RECIPE NAME: qcacld-utils
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: qmi
+PACKAGE VERSION: git
+RECIPE NAME: qmi
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: qmi-client-helper
+PACKAGE VERSION: git
+RECIPE NAME: qmi-client-helper
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: qmi-framework
+PACKAGE VERSION: git
+RECIPE NAME: qmi-framework
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: qmi-shutdown-modem
+PACKAGE VERSION: git
+RECIPE NAME: qmi-shutdown-modem
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: qsthw-api
+PACKAGE VERSION: git
+RECIPE NAME: qsthw-api
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: qsthw-api-dev
+PACKAGE VERSION: git
+RECIPE NAME: qsthw-api
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: readline
+PACKAGE VERSION: 5.2
+RECIPE NAME: readline
+LICENSE: GPLv2+
+
+PACKAGE NAME: readline-dev
+PACKAGE VERSION: 5.2
+RECIPE NAME: readline
+LICENSE: GPLv2+
+
+PACKAGE NAME: reboot-daemon
+PACKAGE VERSION: 1.0
+RECIPE NAME: reboot-daemon
+LICENSE: BSD
+
+PACKAGE NAME: rmtstorage
+PACKAGE VERSION: git
+RECIPE NAME: rmtstorage
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: run-postinsts
+PACKAGE VERSION: 1.0
+RECIPE NAME: run-postinsts
+LICENSE: MIT
+
+PACKAGE NAME: safe-iop
+PACKAGE VERSION: git
+RECIPE NAME: safe-iop
+LICENSE: ISC
+
+PACKAGE NAME: safe-iop-dev
+PACKAGE VERSION: git
+RECIPE NAME: safe-iop
+LICENSE: ISC
+
+PACKAGE NAME: shadow
+PACKAGE VERSION: 4.2.1
+RECIPE NAME: shadow
+LICENSE: BSD | Artistic-1.0
+
+PACKAGE NAME: shadow-base
+PACKAGE VERSION: 4.2.1
+RECIPE NAME: shadow
+LICENSE: BSD | Artistic-1.0
+
+PACKAGE NAME: shadow-securetty
+PACKAGE VERSION: 4.2.1
+RECIPE NAME: shadow-securetty
+LICENSE: MIT
+
+PACKAGE NAME: smwrapper
+PACKAGE VERSION: git
+RECIPE NAME: smwrapper
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: soundtrigger
+PACKAGE VERSION: git
+RECIPE NAME: soundtrigger
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: soundtrigger-dev
+PACKAGE VERSION: git
+RECIPE NAME: soundtrigger
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: speexdsp
+PACKAGE VERSION: 1.2rc3
+RECIPE NAME: speexdsp
+LICENSE: BSD
+
+PACKAGE NAME: start-scripts-find-partitions
+PACKAGE VERSION: 1.0
+RECIPE NAME: start-scripts-find-partitions
+LICENSE: BSD
+
+PACKAGE NAME: start-scripts-firmware-links
+PACKAGE VERSION: 1.0
+RECIPE NAME: start-scripts-firmware-links
+LICENSE: BSD
+
+PACKAGE NAME: start-scripts-misc-daemon
+PACKAGE VERSION: 1.0
+RECIPE NAME: start-scripts-misc-daemon
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: start-scripts-qci-daemon
+PACKAGE VERSION: 1.0
+RECIPE NAME: start-scripts-qci-daemon
+LICENSE: Proprietary
+
+PACKAGE NAME: surround-sound
+PACKAGE VERSION: 0.1
+RECIPE NAME: surround-sound
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: surround-sound-3mic
+PACKAGE VERSION: git
+RECIPE NAME: surround-sound-3mic
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: surround-sound-3mic-dev
+PACKAGE VERSION: git
+RECIPE NAME: surround-sound-3mic
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: system-conf
+PACKAGE VERSION: git
+RECIPE NAME: system-conf
+LICENSE: ISC
+
+PACKAGE NAME: system-core
+PACKAGE VERSION: git
+RECIPE NAME: system-core
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-core-adbd
+PACKAGE VERSION: git
+RECIPE NAME: system-core
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-core-debuggerd
+PACKAGE VERSION: git
+RECIPE NAME: system-core
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-core-dev
+PACKAGE VERSION: git
+RECIPE NAME: system-core
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-core-leprop
+PACKAGE VERSION: git
+RECIPE NAME: system-core
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-core-logd
+PACKAGE VERSION: git
+RECIPE NAME: system-core
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-core-post-boot
+PACKAGE VERSION: git
+RECIPE NAME: system-core
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-core-usb
+PACKAGE VERSION: git
+RECIPE NAME: system-core
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-media
+PACKAGE VERSION: git
+RECIPE NAME: system-media
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-media-dev
+PACKAGE VERSION: git
+RECIPE NAME: system-media
+LICENSE: Apache-2.0
+
+PACKAGE NAME: system-prop
+PACKAGE VERSION: 1.0
+RECIPE NAME: system-prop
+LICENSE: BSD
+
+PACKAGE NAME: systemd
+PACKAGE VERSION: 225+gitAUTOINC+e1439a1472
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: systemd-compat-units
+PACKAGE VERSION: 1.0
+RECIPE NAME: systemd-compat-units
+LICENSE: MIT
+
+PACKAGE NAME: systemd-serialgetty
+PACKAGE VERSION: 1.0
+RECIPE NAME: systemd-serialgetty
+LICENSE: GPLv2+
+
+PACKAGE NAME: systemd-vconsole-setup
+PACKAGE VERSION: 225+gitAUTOINC+e1439a1472
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: tcpdump
+PACKAGE VERSION: 4.1.1
+RECIPE NAME: tcpdump
+LICENSE: BSD
+
+PACKAGE NAME: thermal-engine
+PACKAGE VERSION: git
+RECIPE NAME: thermal-engine
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: time-genoff
+PACKAGE VERSION: git
+RECIPE NAME: time-genoff
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: time-genoff-dev
+PACKAGE VERSION: git
+RECIPE NAME: time-genoff
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: tinyalsa
+PACKAGE VERSION: git
+RECIPE NAME: tinyalsa
+LICENSE: BSD
+
+PACKAGE NAME: tinyalsa-dev
+PACKAGE VERSION: git
+RECIPE NAME: tinyalsa
+LICENSE: BSD
+
+PACKAGE NAME: tinycompress
+PACKAGE VERSION: git
+RECIPE NAME: tinycompress
+LICENSE: BSD & LGPLv2.1
+
+PACKAGE NAME: tinycompress-dev
+PACKAGE VERSION: git
+RECIPE NAME: tinycompress
+LICENSE: BSD & LGPLv2.1
+
+PACKAGE NAME: tzdata
+PACKAGE VERSION: 2016i
+RECIPE NAME: tzdata
+LICENSE: PD & BSD & BSD-3-Clause
+
+PACKAGE NAME: udev
+PACKAGE VERSION: 225+gitAUTOINC+e1439a1472
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: udev-hwdb
+PACKAGE VERSION: 225+gitAUTOINC+e1439a1472
+RECIPE NAME: systemd
+LICENSE: GPLv2 & LGPLv2.1
+
+PACKAGE NAME: update-alternatives-opkg
+PACKAGE VERSION: 0.1.8+gitAUTOINC+53274f0875
+RECIPE NAME: opkg-utils
+LICENSE: GPLv2+
+
+PACKAGE NAME: update-rc.d
+PACKAGE VERSION: 0.7
+RECIPE NAME: update-rc.d
+LICENSE: GPLv2+
+
+PACKAGE NAME: update-rc.d-dev
+PACKAGE VERSION: 0.7
+RECIPE NAME: update-rc.d
+LICENSE: GPLv2+
+
+PACKAGE NAME: util-linux-agetty
+PACKAGE VERSION: 2.26.2
+RECIPE NAME: util-linux
+LICENSE: GPLv2only & LGPLv2.1only
+
+PACKAGE NAME: util-linux-fsck
+PACKAGE VERSION: 2.26.2
+RECIPE NAME: util-linux
+LICENSE: GPLv2only & LGPLv2.1only
+
+PACKAGE NAME: util-linux-libblkid
+PACKAGE VERSION: 2.26.2
+RECIPE NAME: util-linux
+LICENSE: GPLv2only & LGPLv2.1only
+
+PACKAGE NAME: util-linux-libmount
+PACKAGE VERSION: 2.26.2
+RECIPE NAME: util-linux
+LICENSE: GPLv2only & LGPLv2.1only
+
+PACKAGE NAME: util-linux-libuuid
+PACKAGE VERSION: 2.26.2
+RECIPE NAME: util-linux
+LICENSE: GPLv2only & LGPLv2.1only
+
+PACKAGE NAME: util-linux-mount
+PACKAGE VERSION: 2.26.2
+RECIPE NAME: util-linux
+LICENSE: GPLv2only & LGPLv2.1only
+
+PACKAGE NAME: util-linux-sulogin
+PACKAGE VERSION: 2.26.2
+RECIPE NAME: util-linux
+LICENSE: GPLv2only & LGPLv2.1only
+
+PACKAGE NAME: valgrind
+PACKAGE VERSION: 3.10.1
+RECIPE NAME: valgrind
+LICENSE: GPLv2 & GPLv2+ & BSD
+
+PACKAGE NAME: volatile-binds
+PACKAGE VERSION: 1.0
+RECIPE NAME: volatile-binds
+LICENSE: MIT
+
+PACKAGE NAME: wcnss
+PACKAGE VERSION: git
+RECIPE NAME: wcnss
+LICENSE: BSD
+
+PACKAGE NAME: wireless-tools
+PACKAGE VERSION: 30.pre9
+RECIPE NAME: wireless-tools
+LICENSE: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+
+PACKAGE NAME: wlan-opensource
+PACKAGE VERSION: git
+RECIPE NAME: wlan-opensource
+LICENSE: BSD
+
+PACKAGE NAME: wpa-supplicant-qcacld
+PACKAGE VERSION: git
+RECIPE NAME: wpa-supplicant-qcacld
+LICENSE: BSD
+
+PACKAGE NAME: xmllib
+PACKAGE VERSION: git
+RECIPE NAME: xmllib
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+
+PACKAGE NAME: zlib
+PACKAGE VERSION: 1.2.8
+RECIPE NAME: zlib
+LICENSE: Zlib
+
+PACKAGE NAME: zlib-dev
+PACKAGE VERSION: 1.2.8
+RECIPE NAME: zlib
+LICENSE: Zlib
+
